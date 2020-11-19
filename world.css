@@ -1,1 +1,55 @@
 /* Add your own styles */
+
+body{
+    margin: 0;
+    background-color: grey;
+    
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: midnightblue;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+#controls {
+   padding: 20px;
+   text-align: center;
+}
+
+img {
+    border-radius: 100px / 50px;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+#results{
+    text-align: center;
+    margin: 0%;
+}
+
+table {
+    margin-left: 375px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
